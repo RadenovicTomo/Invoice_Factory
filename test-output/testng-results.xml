@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="13926" started-at="2018-08-03T17:32:58Z" finished-at="2018-08-03T17:33:12Z">
+    <groups>
+    </groups>
+    <test name="Testing" duration-ms="13926" started-at="2018-08-03T17:32:58Z" finished-at="2018-08-03T17:33:12Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.LoginTest@18be83e4]" name="setUp" is-config="true" duration-ms="4165" started-at="2018-08-03T17:32:54Z" finished-at="2018-08-03T17:32:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="allCapsPassword()[pri:0, instance:tests.LoginTest@18be83e4]" name="allCapsPassword" duration-ms="4024" started-at="2018-08-03T17:32:58Z" finished-at="2018-08-03T17:33:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allCapsPassword -->
+        <test-method status="PASS" signature="allCapsEmailandPassword()[pri:1, instance:tests.LoginTest@18be83e4]" name="allCapsEmailandPassword" duration-ms="1109" started-at="2018-08-03T17:33:02Z" finished-at="2018-08-03T17:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allCapsEmailandPassword -->
+        <test-method status="PASS" signature="invalidEmail()[pri:2, instance:tests.LoginTest@18be83e4]" name="invalidEmail" duration-ms="1496" started-at="2018-08-03T17:33:03Z" finished-at="2018-08-03T17:33:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method status="PASS" signature="emptyEmail()[pri:3, instance:tests.LoginTest@18be83e4]" name="emptyEmail" duration-ms="1410" started-at="2018-08-03T17:33:05Z" finished-at="2018-08-03T17:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyEmail -->
+        <test-method status="PASS" signature="emptyPassword()[pri:4, instance:tests.LoginTest@18be83e4]" name="emptyPassword" duration-ms="978" started-at="2018-08-03T17:33:06Z" finished-at="2018-08-03T17:33:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPassword -->
+        <test-method status="PASS" signature="passShorterThanSixChars()[pri:5, instance:tests.LoginTest@18be83e4]" name="passShorterThanSixChars" duration-ms="972" started-at="2018-08-03T17:33:07Z" finished-at="2018-08-03T17:33:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passShorterThanSixChars -->
+        <test-method status="PASS" signature="passLongerThanTwentyChars()[pri:6, instance:tests.LoginTest@18be83e4]" name="passLongerThanTwentyChars" duration-ms="1798" started-at="2018-08-03T17:33:08Z" finished-at="2018-08-03T17:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passLongerThanTwentyChars -->
+        <test-method status="PASS" signature="allCapsEmail()[pri:7, instance:tests.LoginTest@18be83e4]" name="allCapsEmail" duration-ms="2083" started-at="2018-08-03T17:33:10Z" finished-at="2018-08-03T17:33:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allCapsEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginTest@18be83e4]" name="tearDown" is-config="true" duration-ms="4079" started-at="2018-08-03T17:33:12Z" finished-at="2018-08-03T17:33:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Testing -->
+  </suite> <!-- TestSuite -->
+</testng-results>
